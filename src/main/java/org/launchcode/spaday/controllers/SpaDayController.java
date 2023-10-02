@@ -62,7 +62,8 @@ public class SpaDayController {
                 appropriateFacials.add(facials.get(i));
             }
         }
-        model.addAttribute("facials", appropriateFacials);
+        model.addAttribute("appropriateFacials", appropriateFacials);
+        model.addAttribute("nailService", manipedi);
         return "menu";
     }
 }
