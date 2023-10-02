@@ -62,7 +62,7 @@ public class SpaDayController {
                 appropriateFacials.add(facials.get(i));
             }
         }
-
+        model.addAttribute("facials", appropriateFacials);
         return "menu";
     }
 }
